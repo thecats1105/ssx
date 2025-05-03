@@ -1,6 +1,6 @@
 #   Scoop Super Search v7.0.0 2025.05.03
 #   (C) 2023 Oscar Lopez, 2025 Taejun Park
-#   For more information visit: https://github.com/thecats1105/ss (Original: https://github.com/okibcn/ss)"
+#   For more information visit: https://github.com/thecats1105/ssx (Original: https://github.com/okibcn/ss)"
 
 
 ## Finds texts in local scoop database
@@ -32,7 +32,7 @@ function ss {
         Write-Host " Scoop Super Search v7.0.0 2025.05.03
  Original by: Scoop Super Search v6.2 2023.02.28
  (C) 2023 Oscar Lopez, 2025 Taejun Park
- ss -h for help. For more information visit: https://github.com/thecats1105/ss (Original: https://github.com/okibcn/ss)"
+ ss -h for help. For more information visit: https://github.com/thecats1105/ssx (Original: https://github.com/okibcn/ss)"
     }
     if (($oHelp) -OR ($pattern.count -eq 0)) {
         Write-Host "
