@@ -1,10 +1,12 @@
 # SS (Scoop **Super Search**) 
 
+## Original by [okibcn/ss](https://github.com/okibcn/ss)
+
 <br/>
 
 Scoop Super Search, instantaneous results, UTF-8 and regex compatible. The fastest search engine for Scoop.
 
-(Do you like it? give it a ⭐)
+(Do you like it? give it a ⭐ to [**okibcn/ss**](https://github.com/okibcn/ss))
 
 <br/>
 <img width="1548" alt="image" src="https://user-images.githubusercontent.com/22417711/221735191-c92cf442-b29e-411b-a5c7-2b3ca8de6d50.png">
@@ -19,14 +21,14 @@ ____
 
 <br/>
 
-**Scoop Super Search** is capable of searching in more than 800 buckets and 52,000 app manifests in internet. It uses the lightning fast [ScoopMaster database](https://github.com/okibcn/ScoopMaster) to provide intantaneous results in less than 500 ms.
+**Scoop Super Search** is capable of searching in more than 800 buckets and 52,000 app manifests in internet. It uses the lightning fast [ScoopMaster database](https://github.com/thecats1105/ScoopMaster) to provide intantaneous results in less than 500 ms.
 
 <br/>
 
 ### - ⭐ **Always updated**
 <br/>
 
-**Scoop Super Search** uses the [ScoopMaster database](https://github.com/okibcn/ScoopMaster), ensuring the latest results and highest versions for every app in Scoop. The database is updated every 30 minutes, ensuring fresh results, newer than even the official scoop app database.
+**Scoop Super Search** uses the [ScoopMaster database](https://github.com/thecats1105/ScoopMaster), ensuring the latest results and highest versions for every app in Scoop. The database is updated every 30 minutes, ensuring fresh results, newer than even the official scoop app database.
 
 <br/>
 
@@ -107,7 +109,7 @@ From there the installation is straightforward.
 
 1. Add the definitive Scoop Master meta-bucket with all the scoop apps:
 ```pwsh
-scoop bucket add .sm http://github.com/okibcn/ScoopMaster
+scoop bucket add .SM http://github.com/thecats1105/ScoopMaster
 ```
 2. Install **SS**:
 ```pwsh
