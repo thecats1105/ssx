@@ -47,9 +47,9 @@ jobs:
         ##                          ##
         ############################
 
-        cp LICENSE README* -t ss
-        VERSION=$(cat ss/ss.ps1 |  grep -Po "^#.*v([\d\.\-]+)" |  grep -Po "([\d\.\-]+)")        
-        7z a "./ss-v$VERSION.7z" ss/*
+        cp LICENSE README* -t src
+        VERSION=$(cat src/ss.ps1 | grep -Po "^#.*v([\d\.\-]+)" | grep -Po "([\d\.\-]+)")
+        7z a "./ss-v$VERSION.7z" src/*
         echo "VERSION=${VERSION}" >>$GITHUB_ENV
 
     - name: "👍 Upload Artifact"
