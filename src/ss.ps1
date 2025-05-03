@@ -1,4 +1,3 @@
-#   Original by: Scoop Super Search v6.2 2023.02.28
 #   Scoop Super Search v7.0.0 2025.05.03
 #   (C) 2023 Oscar Lopez, 2025 Taejun Park
 #   For more information visit: https://github.com/thecats1105/ss (Original: https://github.com/okibcn/ss)"
