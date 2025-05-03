@@ -1,4 +1,4 @@
-# SS (Scoop **Super Search**) 
+# SSx (Scoop **Super Search**) 
 
 ## Original by [okibcn/ss](https://github.com/okibcn/ss)
 
@@ -35,35 +35,35 @@ ____
 ### - 🔍 **Searches in names AND descriptions improving the search flexibility.**
 <br/>
 
-Most Scoop search tools provide results only referred to the app name. SS can search also in the app descriptions.
+Most Scoop search tools provide results only referred to the app name. SSx can search also in the app descriptions.
 
 <br/>
 
 ### - 🔍&🔍 **Match All keywords capability.** 
 <br/>
 
-Most Scoop search systems provide results for a single keyword. SS can search combinations of OR and AND.
+Most Scoop search systems provide results for a single keyword. SSx can search combinations of OR and AND.
 
 <br/>
 
 ### - 🔧 **Complex REGEX search patterns for advanced users**
 <br/>
 
-**SS** also supports extended **REGEX** pattern seaches, accepting even multiple regex patterns.
+**SSx** also supports extended **REGEX** pattern seaches, accepting even multiple regex patterns.
 
 <br/>
 
 ### - **(音乐) UTF-8 compatible**
 <br/>
 
-**SS** accepts searches in UTF-8 encoding, supporting searches in descriptions when the language uses suplemental Unicode pages. Please note that this feature requires a UTF-8 capable terminal such as Windows Terminal.
+**SSx** accepts searches in UTF-8 encoding, supporting searches in descriptions when the language uses suplemental Unicode pages. Please note that this feature requires a UTF-8 capable terminal such as Windows Terminal.
 
 <br/>
 
 ### - 🕒 **Last-manifest filter**
 <br/>
 
-Typical search utilities provide only the list of matches including all the versions and all the manifests for that app. **SS** can also filter out all the noise in the report, displaying only the latests manifest of the highest version of each app.
+Typical search utilities provide only the list of matches including all the versions and all the manifests for that app. **SSx** can also filter out all the noise in the report, displaying only the latests manifest of the highest version of each app.
 
 <br/>
 
@@ -77,21 +77,21 @@ The result is displated with color coding for easy identigication of the matched
 ### - 🪟 **Interoperability with other PowerShell scripts**
 <br/>
 
-**SS** can provide the output as a PSObject format so other PowerShell utilities could use the data for other tasks.
+**SSx** can provide the output as a PSObject format so other PowerShell utilities could use the data for other tasks.
 
 <br/>
 
 ### - 🌐 **Homepage information**
 <br/>
 
-**SS** has an option that displays the homepage of each manifest. That makes easier to reasearch the source of the app, find details about it, etc.
+**SSx** has an option that displays the homepage of each manifest. That makes easier to reasearch the source of the app, find details about it, etc.
 
 <br/>
 
 ### - 🌐 **Backward compatible with Windows PowerShell 5.1**
 <br/>
 
-**SS** Is compatible with the powerfull and fast Powershell Core from MS Store, or with the default Windows Powrshell included with Windows 10/11.
+**SSx** Is compatible with the powerfull and fast Powershell Core from MS Store, or with the default Windows Powrshell included with Windows 10/11.
 
 <br/>
 
@@ -111,19 +111,19 @@ From there the installation is straightforward.
 ```pwsh
 scoop bucket add .SM http://github.com/thecats1105/ScoopMaster
 ```
-2. Install **SS**:
+2. Install **SSx**:
 ```pwsh
-scoop install ss
+scoop install ssx
 ```
 
 App update:
 ```pwsh
-scoop update ss
+scoop update ssx
 ```
 
 App uninstall:
 ```pwsh
-scoop uninstall ss
+scoop uninstall ssx
 ```
 
 <br/>
@@ -138,10 +138,10 @@ ____
 
 Usage: ss [ [ [-n] [ -s|-e ] [-l] [-o] [-p] [-r] ] | -h ] [Search_Patterns]
 
- **SS** searches in all the known buckets at a lighning speed. It not only searches
+ **SSx** searches in all the known buckets at a lighning speed. It not only searches
  in the name field, but also in the desscription. Regex and UTF-8 compatible. 
  
- If you use more than one pattern, **SS** returns manifests matching all of them.
+ If you use more than one pattern, **SSx** returns manifests matching all of them.
 ```
  Options:
 
