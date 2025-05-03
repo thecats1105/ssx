@@ -29,7 +29,7 @@ jobs:
         shell: bash
     steps:
     - name: "⏬ Checkout repository"
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: "🐞 Debug session"
       uses: mxschmitt/action-tmate@v3
@@ -53,7 +53,7 @@ jobs:
         echo "VERSION=${VERSION}" >>$GITHUB_ENV
 
     - name: "👍 Upload Artifact"
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       if: github.event_name == 'workflow_dispatch' && github.event.inputs.release != 'yes'
       with:
         name: v${{ env.VERSION }}
@@ -61,7 +61,7 @@ jobs:
           *.7z
 
     - name: "🎉 Publish a new release"
-      uses: softprops/action-gh-release@v0.1.15
+      uses: softprops/action-gh-release@v2
       # go to https://github.com/OWNER/REPO/settings/actions and
       # in "**"Workflow Permissions" section give actions **Read and Write permissions**.
       if: github.event_name != 'workflow_dispatch' || github.event.inputs.release == 'yes'
