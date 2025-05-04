@@ -69,7 +69,7 @@ function ss {
     }
     $oldPS = $PSVersionTable.PSEdition -ne 'Core'
     $DBfile = "$($env:TEMP)/AllAppsDB.7z"
-    if ((-NOT (test-path $DBfile)) -OR (((Get-Date) - (gci $DBfile).LastWriteTime).Minutes -ge 30)) {
+    if ((-NOT (test-path $DBfile)) -OR (((Get-Date) - (gci $DBfile).LastWriteTime).TotalMinutes -ge 30)) {
         aria2c --allow-overwrite=true https://github.com/thecats1105/ScoopMaster/releases/download/Databases/AllAppsDB.7z -d "$env:TEMP" | Out-Null
     }
     $csv = 7z e -so $DBfile AllAppsDB.csv
