@@ -107,9 +107,9 @@ This app is a CLI utility for the Scoop framework and requires [Scoop ackage Man
 
 From there the installation is straightforward.
 
-1. Add the definitive Scoop Master meta-bucket with all the scoop apps:
+1. Add the Let's Scoop meta-bucket:
 ```pwsh
-scoop bucket add .SM http://github.com/thecats1105/ScoopMaster
+scoop bucket add .LS http://github.com/thecats1105/letscoop
 ```
 2. Install **SSx**:
 ```pwsh
