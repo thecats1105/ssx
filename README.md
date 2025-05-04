@@ -6,7 +6,7 @@
 
 Scoop Super Search, instantaneous results, UTF-8 and regex compatible. The fastest search engine for Scoop.
 
-(Do you like it? give it a ⭐ to [**okibcn/ss**](https://github.com/okibcn/ss))
+(Do you like it? give it a ⭐ to [**okibcn/ss**](https://github.com/okibcn/ss) (and also here))
 
 <br/>
 <img width="1548" alt="image" src="https://user-images.githubusercontent.com/22417711/221735191-c92cf442-b29e-411b-a5c7-2b3ca8de6d50.png">
