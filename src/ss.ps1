@@ -71,7 +71,7 @@ function ss {
     $DBfile = "$($env:TEMP)/AllAppsDB.7z"
     $checksum = curl -L https://github.com/thecats1105/ScoopMaster/releases/download/Databases/checksum.json | ConvertFrom-Json
     $DBfile_checksum = $checksum.'AllAppsDB.7z'
-    if ((-NOT (test-path $DBfile)) -OR (($DBfile_checksum -ne (Get-FileHash -Algorithm SHA1 $DBfile).Hash)) {
+    if ((-NOT (test-path $DBfile)) -OR ($null -ne $DBfile_checksum -AND $DBfile_checksum -ne (Get-FileHash -Algorithm SHA1 $DBfile).Hash)) {
         aria2c --allow-overwrite=true https://github.com/thecats1105/ScoopMaster/releases/download/Databases/AllAppsDB.7z -d "$env:TEMP" | Out-Null
     }
     $csv = 7z e -so $DBfile AllAppsDB.csv
