@@ -1,4 +1,4 @@
-#   Scoop Super Search v7.0.1 2025.05.03
+#   Scoop Super Search v7.1.0 2025.05.03
 #   (C) 2023 Oscar Lopez, 2025 Taejun Park
 #   For more information visit: https://github.com/thecats1105/ssx (Original: https://github.com/okibcn/ss)"
 
@@ -29,7 +29,7 @@ function ss {
         }
     }
     if (($oHelp) -OR (!$oRaw)) {
-        Write-Host " Scoop Super Search v7.0.1 2025.05.03
+        Write-Host " Scoop Super Search v7.1.0 2025.05.03
  Original by: Scoop Super Search v6.2 2023.02.28
  (C) 2023 Oscar Lopez, 2025 Taejun Park
  ss -h for help. For more information visit: https://github.com/thecats1105/ssx (Original: https://github.com/okibcn/ss)"
