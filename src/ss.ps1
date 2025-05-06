@@ -70,7 +70,7 @@ function ss {
     $oldPS = $PSVersionTable.PSEdition -ne 'Core'
     $DBfile = "$($env:TEMP)/AllAppsDB.7z"
     $checksum = (Invoke-RestMethod https://github.com/thecats1105/ScoopMaster/releases/download/Databases/checksum.json).'AllAppsDB.7z'
-    if ((-NOT (test-path $DBfile)) -OR ($null -ne $checksum -AND $checksum -ne (Get-FileHash -Algorithm SHA1 $DBfile).Hash)) {
+    if ((-NOT (test-path $DBfile)) -OR ($null -ne $checksum -AND $checksum -ne (Get-FileHash -Algorithm SHA256 $DBfile).Hash)) {
         aria2c --allow-overwrite=true https://github.com/thecats1105/ScoopMaster/releases/download/Databases/AllAppsDB.7z -d "$env:TEMP" | Out-Null
     }
     $csv = 7z e -so $DBfile AllAppsDB.csv
