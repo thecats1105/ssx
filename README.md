@@ -21,14 +21,14 @@ ____
 
 <br/>
 
-**Scoop Super Search** is capable of searching in more than 800 buckets and 52,000 app manifests in internet. It uses the lightning fast [ScoopMaster database](https://github.com/thecats1105/ScoopMaster) to provide intantaneous results in less than 500 ms.
+**Scoop Super Search** is capable of searching in more than 800 buckets and 52,000 app manifests in internet. It uses the lightning fast [ScoopMaster database](https://github.com/letscoop/ScoopMaster) to provide intantaneous results in less than 500 ms.
 
 <br/>
 
 ### - ⭐ **Always updated**
 <br/>
 
-**Scoop Super Search** uses the [ScoopMaster database](https://github.com/thecats1105/ScoopMaster), ensuring the latest results and highest versions for every app in Scoop. The database is updated every 30 minutes, ensuring fresh results, newer than even the official scoop app database.
+**Scoop Super Search** uses the [ScoopMaster database](https://github.com/letscoop/ScoopMaster), ensuring the latest results and highest versions for every app in Scoop. The database is updated every 30 minutes, ensuring fresh results, newer than even the official scoop app database.
 
 <br/>
 
