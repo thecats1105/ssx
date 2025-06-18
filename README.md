@@ -28,7 +28,7 @@ ____
 ### - ⭐ **Always updated**
 <br/>
 
-**Scoop Super Search** uses the [ScoopMaster database](https://github.com/letscoop/ScoopMaster), ensuring the latest results and highest versions for every app in Scoop. The database is updated every 30 minutes, ensuring fresh results, newer than even the official scoop app database.
+**Scoop Super Search** uses the [ScoopMaster database](https://github.com/letscoop/ScoopMaster), ensuring the latest results and highest versions for every app in Scoop. The database is updated every hours, ensuring fresh results, newer than even the official scoop app database.
 
 <br/>
 
